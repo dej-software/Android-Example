@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="设置推送频率">
+        <ListPreference
+            android:defaultValue="1小时"
+            android:dialogTitle="请选择时间"
+            android:entries="@array/notification_time_entry"
+            android:entryValues="@array/notification_time_values"
+            android:key="notification_time"
+            android:negativeButtonText="取消"
+            android:positiveButtonText="确定"
+            android:title="推送时间" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="保存昵称">
+        <EditTextPreference
+            android:defaultValue="极客学院"
+            android:key="nick_name"
+            android:title="昵称" />
+    </PreferenceCategory>
+</PreferenceScreen>

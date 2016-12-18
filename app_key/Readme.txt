@@ -1,0 +1,1 @@
+keytool -v -list -keystore E:\Android_APP\app_key\keystore.jks

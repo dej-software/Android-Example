@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\Android_APP\\ApiDemos\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_arguments.xml",
+        "source": "E:\\Android_APP\\ApiDemos\\app\\src\\main\\res\\layout-land\\fragment_arguments.xml"
+    },
+    {
+        "merged": "E:\\Android_APP\\ApiDemos\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragment_layout.xml",
+        "source": "E:\\Android_APP\\ApiDemos\\app\\src\\main\\res\\layout-land\\fragment_layout.xml"
+    }
+]

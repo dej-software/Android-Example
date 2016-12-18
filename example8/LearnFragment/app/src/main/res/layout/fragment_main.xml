@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.jikexueyuan.learnfragment.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello main fragment" />
+
+    <Button
+        android:id="@+id/btnStartSliderActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动有侧边栏的Activity"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnStartAnotherFragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动另一个Fragment"
+        android:textAllCaps="false" />
+
+    <Button
+        android:id="@+id/btnStartTabbedActivity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="启动TabbedActivity"
+        android:textAllCaps="false" />
+</LinearLayout>
